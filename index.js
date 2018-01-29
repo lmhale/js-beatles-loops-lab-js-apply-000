@@ -8,7 +8,7 @@ var instruments =["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   for(var i = 0;i < musicians.length; i++){
      for (var k = 0; k < instruments.length; k++){
       empArray.push(musicians[i] + ' plays ' + instruments[k]);
-    
+
   }
 }
 return empArray;
