@@ -23,13 +23,12 @@ var facts = ["He was the last Beatle to learn to drive",
 
 function johnLennonFacts (arr) {
 var results = [];
-  
+
  i = 0;
   while (i < facts.length){
     results.push(facts[i] + '!!!');
     i++;
-    
+
 }
 return results;
 }
-
