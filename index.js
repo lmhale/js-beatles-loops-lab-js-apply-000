@@ -23,8 +23,8 @@ var results = [];
   "He hated the sound of his own voice"];
   var i = 0;
   while (i < facts.length){
-      i++;
     results.push(facts[i] + '!!!');
+      i++;
 }
 return results;
 }
