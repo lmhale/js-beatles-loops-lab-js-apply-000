@@ -22,7 +22,7 @@ var results = [];
   "He hated the sound of his own voice"];
 
   while (i < facts.length){
-      i++;  
+      i++;
     results.push(facts[i] + '!!!');
 }
 return results;
