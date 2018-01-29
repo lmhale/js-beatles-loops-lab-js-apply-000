@@ -7,9 +7,9 @@ var instruments =["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   var empArray = [];
   for(var i = 0;i < musicians.length; i++){
      for (var k = 0; k < instruments.length; i++){
-      
+
        empArray.push(musicians[i] + 'plays' + instruments[k]);
-    
+
   }
 }
 }
